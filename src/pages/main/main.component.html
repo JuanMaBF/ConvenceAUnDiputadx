@@ -1,9 +1,6 @@
-<div class="container-fluid">
-    <div class="row justify-content-center">
-        <div class="col col-12 col-sm-5">
-            <div>
-                <img style="width: 100%" src="./assets/ilustracion-pag-principal.png">
-            </div>
+<div class="container-fluid h-100">
+    <div class="row justify-content-center h-100">
+        <div class="imagen col col-12 col-sm-5">
         </div>
             
         <div class="col col-12 col-sm-6">
@@ -16,3 +13,26 @@
         </div>
     </div>
 </div>
+
+<style>
+    .imagen {
+        background-image: url("./assets/ilustracion-pag-principal.png");
+        height: 100%; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    @media(min-width: 577px) {
+        .imagen {
+            height: 90%;
+        }
+    }
+
+    @media(max-width: 576px) {
+        .imagen {
+            height: 75%;
+        }
+    }
+
+</style>
