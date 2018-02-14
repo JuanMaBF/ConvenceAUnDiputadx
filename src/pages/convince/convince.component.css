@@ -1,0 +1,77 @@
+.container-fluid {
+    padding-top: 2%;
+}
+
+.dip-img {
+    background-image: url("/assets/dip/sen-pichetto.jpg");
+    height: 47vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 991px) { 
+    .dip-img-form {
+        height: 55vh;
+    }
+ }
+
+.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255,26,9,0.5);
+    width: 100%;
+}
+
+.dip-img .cover {
+    height: 100%;
+}
+
+.card .cover {
+    height: 65.3%;
+}
+
+.cover h5 {
+    position: absolute;
+    bottom: 7px;
+    left: 0px;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    line-height: 28px;
+    font-size: 32px;
+    text-shadow: 0 0 5px rgba(0,0,0,1.0);
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.tweet-textarea {
+    margin-top: 2%;
+}
+
+.tweet-button {
+    margin-top: 1%;
+}
+
+@media(max-width: 768px) {
+    .tweet-form {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+.list-title {
+    margin-top: 3%; 
+    text-align: center;
+}
+
+.dip-list .cover {
+    width: 86.6%;
+    margin-left: 6.7%;
+}
+
+.dip-img.dip-list {
+    height: 35vh;
+}
