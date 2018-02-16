@@ -6,11 +6,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { MainComponent } from '../pages/main/main.component';
 import { AboutComponent } from '../pages/about/about.component';
 import { ConvinceComponent } from '../pages/convince/convince.component';
+import { PropuestasComponent } from '../pages/propuestas/propuestas.component';
 
 const appRoutes: Routes = [
   { path: 'principal', component: MainComponent },
   { path: 'quienes-somos', component: AboutComponent },
   { path: 'convence', component: ConvinceComponent },
+  { path: 'propuestas', component: PropuestasComponent }
 ];
 
 @NgModule({
@@ -18,7 +20,8 @@ const appRoutes: Routes = [
     AppComponent,
     MainComponent,
     AboutComponent,
-    ConvinceComponent
+    ConvinceComponent,
+    PropuestasComponent
   ],
   imports: [
     BrowserModule,
