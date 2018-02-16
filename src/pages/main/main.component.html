@@ -7,7 +7,7 @@
             <h1>Tenemos que levantar nuestra voz para frenar la reforma.</h1>
             <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</h4>
-            <button routerLink="/convence" type="button" class="btn btn-primary btn-lg btn-block">Convencé!</button>
+            <button routerLink="/convence" type="button" id="convince-button" class="btn btn-primary btn-lg btn-block">Convencé!</button>
         </div>
     </div>
 </div>
@@ -19,3 +19,23 @@
 <br>
 
 <propuestas-page id="propuestas-page"></propuestas-page>
+
+<div class="content convence-fixed-button">
+    <div class="row">
+        <button routerLink="/convence" type="button" class="btn btn-primary btn-lg btn-block">Convencé!</button>
+    </div>
+</div>
+
+<style>
+    .convence-fixed-button {
+        position: fixed;
+        top: 87vh;
+        right: 7vw;
+    }
+
+    .convence-fixed-button .row .btn {
+        font-size: 35px;
+        background-color: #f25926 !important;
+        border-color: #f25926;
+    }
+</style>
