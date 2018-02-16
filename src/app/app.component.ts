@@ -13,7 +13,7 @@ export class AppComponent implements OnInit {
   }
 
   public ngOnInit(): void {
-    this.router.navigate(['/propuestas']);
+    
   }
 
 }

@@ -10,12 +10,6 @@
     background-size: cover;
 }
 
-@media (max-width: 991px) { 
-    .dip-img-form {
-        height: 55vh;
-    }
- }
-
 .cover {
     position: absolute;
     top: 0;
@@ -29,7 +23,7 @@
 }
 
 .card .cover {
-    height: 65.3%;
+    height: 64.5%;
 }
 
 .cover h5 {
@@ -47,21 +41,6 @@
     color: #fff;
 }
 
-.tweet-textarea {
-    margin-top: 2%;
-}
-
-.tweet-button {
-    margin-top: 1%;
-}
-
-@media(max-width: 768px) {
-    .tweet-form {
-        visibility: hidden;
-        display: none;
-    }
-}
-
 .list-title {
     margin-top: 3%; 
     text-align: center;
@@ -74,4 +53,16 @@
 
 .dip-img.dip-list {
     height: 35vh;
+}
+
+.dip-img-list {
+    background-image: url("/assets/dip/sen-pichetto.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 244px;
+}
+
+.dip-card {
+    margin: 10px;
 }
