@@ -9,7 +9,7 @@ import { ConvinceComponent } from '../pages/convince/convince.component';
 import { PropuestasComponent } from '../pages/propuestas/propuestas.component';
 
 const appRoutes: Routes = [
-  { path: 'principal', component: MainComponent },
+  { path: '', pathMatch: 'full', component: MainComponent },
   { path: 'quienes-somos', component: AboutComponent },
   { path: 'convence', component: ConvinceComponent },
   { path: 'propuestas', component: PropuestasComponent }
