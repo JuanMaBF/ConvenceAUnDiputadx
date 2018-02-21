@@ -1,4 +1,17 @@
-# Algo
+# Convencé a un diputadx
+
+## Entorno dev:
+
+Lo más fácil es tener instalado [yarn](https://yarnpkg.com/), y entonces simplemente ir con la consola al directorio `frontend` y ejecutar:
+
+    yarn
+    yarn start
+
+
+## Prod
+
+Para generar container para producción, simplemente ejecutar `docker-compose build` y listo.
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.8.
 
